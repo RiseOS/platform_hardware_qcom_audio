@@ -20,6 +20,8 @@
 
 #include <errno.h>
 #include <math.h>
+#include <unistd.h>
+#include <pthread.h>
 #include <log/log.h>
 #include <fcntl.h>
 #include "audio_hw.h"
